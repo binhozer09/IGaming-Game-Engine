@@ -1,6 +1,4 @@
 import com.google.protobuf.gradle.id
-implementation("com.nekgambling:user-grpc-client:1.0.0")
-implementation("com.nekgamebling:wallet-grpc-client:1.0.0")
 plugins {
     alias(libs.plugins.kotlin.jvm)
     alias(libs.plugins.kotlin.serialization)
